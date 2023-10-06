@@ -1,0 +1,171 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background-color: #F8F8F8;
+}
+
+/* Header styles */
+header {
+  background-color: #FF6F61;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+/* Hero section styles */
+.hero {
+  position: relative;
+  height: 400px;
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FFD166;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Features section styles */
+.features {
+  padding: 50px;
+  text-align: center;
+}
+
+.feature {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.feature i {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #3D84B8;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Testimonials section styles */
+.testimonials {
+  padding: 50px;
+  text-align: center;
+}
+
+.testimonial {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial span {
+  font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer p {
+  font-size: 14px;
+  color: #FFFFFF;
+}
